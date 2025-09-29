@@ -16,7 +16,7 @@ public class Gowbari_MadLibs{
         String adj1 = scanner.nextLine();
         System.out.println("Enter another adjective: ");
         String adj2 = scanner.nextLine();
-        System.out.print("This is a nonun" + noun1);
+        System.out.println("Welcome to the land of Brainrot "+" to "+" where they meet their "+"friend TralaleroTralala")
         scanner.close();
     }
 }
