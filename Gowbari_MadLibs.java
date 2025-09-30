@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Gowbari_MadLibs{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
+        // 8 input options
         System.out.println("Enter a name: ");
         String noun1 = scanner.nextLine();
         System.out.println("Enter a name of a place: ");
@@ -18,6 +19,8 @@ public class Gowbari_MadLibs{
         String adj2 = scanner.nextLine();
         System.out.println("Enter a food: ");
         String food = scanner.nextLine();
+
+        // story printed out
         System.out.println("Welcome to the land of Brainrot, where " + noun1 + " escapes from " + noun2 + " and travels through the void of " + noun3 + ", all while " + verb2 + " at a speed of 67 thoughts per second. Suddenly, they " + verb1 + " with a " + adj1 + ", " + adj2 + " creature named TralaleroTralala. Nothing makes sense anymore. The sky is "+food+". Reality is optional.");
         scanner.close();
     }

@@ -1,2 +1,3 @@
 # Gowbari_MadLibs
-#finish ts
+# Output Screenshot
+![alt text](image.png)
