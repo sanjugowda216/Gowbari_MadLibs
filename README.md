@@ -23,3 +23,9 @@
 
 # Output Screenshot
 ![alt text](image.png)
+
+### Test Case 2 with an Integer
+![alt text](image-1.png)
+
+### Test Case 3 with a Double
+![alt text](image-2.png)
