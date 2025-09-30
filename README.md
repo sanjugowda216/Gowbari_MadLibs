@@ -1,4 +1,6 @@
 # Gowbari_MadLibs
+# Our Approach 
+### Created a basic outline story that interested us, then used scanner import to store user inputs into variables. Then used concatenation techniques to display the final story output with the variables saved from the scanner  input function. We hope you enjoy the brainrot story!
 # MadLibs Milestones
 ## Create the MadLibs riddles
 - Estimated time: 15 minutes
