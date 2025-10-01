@@ -5,6 +5,8 @@ public class pmoMadLib{
         //System.out.println("Welcome to the land of Brainrot, where ____ escapes from ____ and travels through the void of ____, all while ____ at a speed of 67 thoughts per second. Suddenly, they ____ with a ____, ____ creature named TralaleroTralala. Nothing makes sense anymore. The sky is ____. Reality is optional."); //original story printed out
         System.out.println("Enter every noun as 'noun,' all adjectives as 'adj,' and all verbs as 'verb'. \nEntrega su MadLib ahora: "); 
         String imMad = scanner.nextLine();
+        int i = imMad.indexOf("noun");
+        System.out.println("Noun" + i);
         scanner.close();
     }
 }
