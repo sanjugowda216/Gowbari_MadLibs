@@ -22,7 +22,7 @@
 - Estimated Time: 10 munutes
 - Actual Time: 19 minutes
 
-# Output Screenshot for MadLib Challenge
+# Test Cases Screenshot for MadLib Challenge
 ![alt text](image-3.png)
 
 # Output Screenshot for Easy MadLib
