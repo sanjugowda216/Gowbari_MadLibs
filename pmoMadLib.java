@@ -16,6 +16,7 @@ public class pmoMadLib{
  
     }
     // testing function
+    // included the scanner inside the test function because a new scanner needs to be made for every seperate test functiono!
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String test1 = "The <noun> <verb> over the <adj> barn.";

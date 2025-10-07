@@ -8,7 +8,7 @@
 
 ## Find Speech to Replace
 - Estimated Time: 10 minutes
-- Actual Time: 5 minutes
+- Actual Time: 20 minutes
 
 ## Show each part of speech to the user
 - Estimated Time: 6 minutes
@@ -16,19 +16,17 @@
 
 ## Get the user’s response
 - Estimated Time: 10 minutes
-- Actual: 15 minutes
+- Actual: 20 minutes
 
 ## Get the user’s response Cell
 - Estimated Time: 10 munutes
-- Actual Time: 12 minutes
+- Actual Time: 19 minutes
 
+# Output Screenshot for MadLib Challenge
+![alt text](image-3.png)
 
-# Output Screenshot
+# Output Screenshot for Easy MadLib
 ![alt text](image.png)
 
-### Test 1 w/ Integer 
-![alt text](image-1.png)
 
-### Test Case 2 w/ Double
-![alt text](image-2.png)
 
