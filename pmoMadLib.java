@@ -1,12 +1,25 @@
 import java.util.Scanner;
 public class pmoMadLib{
+    public static String madLib(String lib){
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a noun: ");
+        String inputNoun = sc.nextLine();
+        System.out.print("Enter a verb: ");
+        String inputVerb = sc.nextLine();
+        System.out.print("Enter an adjective: ");
+        String inputAdj = sc.nextLine();
+        lib = lib.replace("<noun>", inputNoun);
+        lib = lib.replace("<verb>", inputVerb);
+        lib = lib.replace("<adj>", inputAdj);
+        sc.close();
+        return lib;
+ 
+    }
+    // testing function
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        //System.out.println("Welcome to the land of Brainrot, where ____ escapes from ____ and travels through the void of ____, all while ____ at a speed of 67 thoughts per second. Suddenly, they ____ with a ____, ____ creature named TralaleroTralala. Nothing makes sense anymore. The sky is ____. Reality is optional."); //original story printed out
-        System.out.println("Enter every noun as 'noun,' all adjectives as 'adj,' and all verbs as 'verb'. \nEntrega su MadLib ahora: "); 
-        String imMad = scanner.nextLine();
-        int i = imMad.indexOf("noun");
-        System.out.println("Noun" + i);
-        scanner.close();
+        
+        String test1 = "The <noun> <verb> over the <adj> barn.";
+        System.out.println(madLib(test1));
     }
 }
