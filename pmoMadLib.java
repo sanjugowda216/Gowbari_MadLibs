@@ -8,9 +8,17 @@ public class pmoMadLib{
         String inputVerb = sc.nextLine();
         System.out.print("Enter an adjective: ");
         String inputAdj = sc.nextLine();
+        
+
+        //System.out.println(adj);
         lib = lib.replace("<noun>", inputNoun);
         lib = lib.replace("<verb>", inputVerb);
-        lib = lib.replace("<adj>", inputAdj);
+     //   lib = lib.replace("<adj>", inputAdj);
+        int adjStart = lib.indexOf("<adj>");
+        String beforeAdj = lib.substring(0, adjStart);
+        String afterAdj = lib.substring(adjStart + 5);
+        lib = beforeAdj + inputAdj + afterAdj;
+    
         
         return lib;
  
